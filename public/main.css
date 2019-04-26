@@ -1,0 +1,56 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#listitems li{
+    margin-left: 100px;
+}
+
+nav {
+    z-index: 1;
+}
+
+#navcontact {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#aside {
+    margin-top: 50px;
+    height: 100vh;
+    position: fixed;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-img-top {
+    -webkit-box-shadow: -7px -1px 57px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -7px -1px 57px -9px rgba(0,0,0,0.75);
+    box-shadow: -7px -1px 57px -9px rgba(0,0,0,0.75);
+}
+
+
+#projectHeader {
+    margin-top: 8rem;
+}
+
+#contactForm {
+    margin-top: 200px;
+}
+
+#contactButton {
+    width: 100px;
+}
+
+@media (min-width: 400px){
+    #aside span h3 {font-size: 16px;}
+}
+
+@media (min-width: 768px) {
+    #aside span h3 {font-size: 1.75rem;}
+    
+}
